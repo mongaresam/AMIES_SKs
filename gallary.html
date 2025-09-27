@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Amie Sneakers Machakos</title>
+  <style>
+    /* General reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff6600;
+    }
+
+    .page-title {
+      text-align: center;
+      padding: 2rem;
+      background: #fff;
+      margin-bottom: 2rem;
+    }
+
+    .page-title h2 {
+      margin-bottom: 0.5rem;
+      color: #ff6600;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 0 2rem 2rem;
+    }
+
+    .gallery-item {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 1rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      max-height: 250px;
+      object-fit: contain;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Amie Sneakers Machakos</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      <a href="kids.html">Kids</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <!-- Page Title -->
+  <section class="page-title">
+    <h2>Our Sneaker Gallery</h2>
+    <p>Explore top collections for Men, Women, and Kids</p>
+  </section>
+
+  <!-- Gallery Grid -->
+  <section class="gallery-grid">
+    <!-- Men Sneakers -->
+    <div class="gallery-item">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d9b8f1ce-c645-4b70-9b52-991f5d596f9e/air-max-90-mens-shoes-K0wBPw.png" alt="Nike Air Max 90 Men">
+      <h3>Men's Nike Air Max 90</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/9f96a0e8a9b94dcfa8d0a7f700df8b7c_9366/Ultraboost_Light_Shoes_Black_HQ6351_01_standard.jpg" alt="Adidas Ultraboost Men">
+      <h3>Men's Adidas Ultraboost</h3>
+    </div>
+
+    <!-- Women Sneakers -->
+    <div class="gallery-item">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/93e96364-baca-4b02-b71e-31f02e816a93/air-zoom-pegasus-41-womens-road-running-shoes-6Vf6V1.png" alt="Nike Pegasus Women">
+      <h3>Women's Nike Pegasus</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/0b67642a083249f0a16bac8300b9f59f_9366/Forum_Low_Shoes_White_FY7755_01_standard.jpg" alt="Adidas Forum Low Women">
+      <h3>Women's Adidas Forum Low</h3>
+    </div>
+
+    <!-- Kids Sneakers -->
+    <div class="gallery-item">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c5ad5b72-2df0-4871-87ef-066c7bc3f2e3/revolution-6-big-kids-road-running-shoes-0Tg1sB.png" alt="Nike Revolution Kids">
+      <h3>Kids' Nike Revolution</h3>
+    </div>
+    <div class="gallery-item">
+      <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/079f52de2f7b4c1193b2ae630142e0a4_9366/Grand_Court_Base_Shoes_White_GW9259_01_standard.jpg" alt="Adidas Kids Grand Court">
+      <h3>Kids' Adidas Grand Court</h3>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Amie Sneakers Machakos. All rights reserved.</p>
+  </footer>
+</body>
+</html>

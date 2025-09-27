@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amie Sneakers Machakos — Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Amie Sneakers Machakos</a>
+      <div class="nav-actions">
+        <button id="nav-toggle">☰</button>
+        <button id="cart-toggle">🛒 <span id="cart-count">0</span></button>
+      </div>
+      <nav id="site-nav" class="nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="new-arrivals.html">New Arrivals</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="store-locator.html">Store</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1>Amie Sneakers Machakos</h1>
+          <p>Your local sneaker hub — curated drops, everyday favorites, and exclusive releases.</p>
+          <a class="btn" href="collections.html">Browse Collections</a>
+        </div>
+        <div class="hero-media">
+          <img src="images/hero.jpg" alt="Featured sneaker">
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Featured</h2>
+      <div id="home-slider" class="slider-window" style="height:280px;position:relative;margin-top:1rem;">
+        <div class="slide"><img src="images/feature1.jpg" style="width:100%;height:280px;object-fit:cover" alt=""></div>
+        <div class="slide"><img src="images/feature2.jpg" style="width:100%;height:280px;object-fit:cover" alt=""></div>
+        <div class="slide"><img src="images/feature3.jpg" style="width:100%;height:280px;object-fit:cover" alt=""></div>
+      </div>
+      <div class="slider-controls row center">
+        <button id="slider-prev">◀</button>
+        <button id="slider-next">▶</button>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Top Picks</h2>
+      <div class="product-grid grid" data-category="all"></div>
+    </section>
+  </main>
+
+  <!-- cart modal -->
+  <div id="cart-modal" aria-hidden="true">
+    <button id="cart-close">Close</button>
+    <div id="cart-list"></div>
+    <div style="margin-top:0.5rem">
+      <button id="checkout" class="btn">Checkout (Demo)</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Amie Sneakers Machakos</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

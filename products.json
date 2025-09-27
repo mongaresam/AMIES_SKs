@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Air Max",
+    "price": 4500,
+    "image": "https://via.placeholder.com/200",
+    "brand": "Nike",
+    "category": "men"
+  },
+  {
+    "id": 2,
+    "name": "Adidas Ultraboost",
+    "price": 5200,
+    "image": "https://via.placeholder.com/200",
+    "brand": "Adidas",
+    "category": "men"
+  },
+  {
+    "id": 3,
+    "name": "Puma Ignite",
+    "price": 3900,
+    "image": "https://via.placeholder.com/200",
+    "brand": "Puma",
+    "category": "men"
+  },
+  {
+    "id": 4,
+    "name": "Nike Air Zoom",
+    "price": 4200,
+    "image": "https://via.placeholder.com/200",
+    "brand": "Nike",
+    "category": "women"
+  },
+  {
+    "id": 5,
+    "name": "Puma RS-X",
+    "price": 3800,
+    "image": "https://via.placeholder.com/200",
+    "brand": "Puma",
+    "category": "women"
+  },
+  {
+    "id": 6,
+    "name": "Adidas NMD R1",
+    "price": 4500,
+    "image": "https://via.placeholder.com/200",
+    "brand": "Adidas",
+    "category": "women"
+  },
+  {
+    "id": 7,
+    "name": "Nike Kids Revolution",
+    "price": 2500,
+    "image": "https://via.placeholder.com/200",
+    "brand": "Nike",
+    "category": "kids"
+  },
+  {
+    "id": 8,
+    "name": "Adidas Kids Superstar",
+    "price": 2800,
+    "image": "https://via.placeholder.com/200",
+    "brand": "Adidas",
+    "category": "kids"
+  },
+  {
+    "id": 9,
+    "name": "Puma Kids Smash",
+    "price": 2300,
+    "image": "https://via.placeholder.com/200",
+    "brand": "Puma",
+    "category": "kids"
+  }
+]
